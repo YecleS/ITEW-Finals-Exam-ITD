@@ -1,10 +1,5 @@
 import React from 'react';
 import '../Styles/Products.css';
-import DucatiV2 from '../Assets/ducatiV2.jpg'
-import DucatiV3 from '../Assets/ducatiV3.jpg'
-import DucatiV4 from '../Assets/ducatiV4.jpg'
-import DucatiV4s from '../Assets/ducatiV4S.jpg'
-import DucatiAllTerrain from '../Assets/ducatiAllterrain.jpg'
 import Nike1 from '../Assets/nikeShoes1.jpg';
 import Nike2 from '../Assets/nikeShoes2.jpg';
 import Nike3 from '../Assets/nikeShoes3.jpg';

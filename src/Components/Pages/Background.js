@@ -1,9 +1,5 @@
 import React from 'react'
 import '../Styles/Background.css';
-import DucatiLogo from '../Assets/ducatiLogo.png';
-import Location from '../Assets/location.jpg';
-import DucatiCEO from '../Assets/ducatiCEO.png';
-import DucatiBuilding from '../Assets/ducatiBuilding.jpg';
 import NikeLogo from '../Assets/nikeLogo.png';
 import NikeLocation from '../Assets/nikeLocation.png';
 import NikeCeo from '../Assets/nikeCeo.jpg';
