@@ -5,6 +5,11 @@ import DucatiV3 from '../Assets/ducatiV3.jpg'
 import DucatiV4 from '../Assets/ducatiV4.jpg'
 import DucatiV4s from '../Assets/ducatiV4S.jpg'
 import DucatiAllTerrain from '../Assets/ducatiAllterrain.jpg'
+import Nike1 from '../Assets/nikeShoes1.jpg';
+import Nike2 from '../Assets/nikeShoes2.jpg';
+import Nike3 from '../Assets/nikeShoes3.jpg';
+import Nike4 from '../Assets/nikeShoes4.jpg';
+import Nike5 from '../Assets/nikeShoes5.jpg'
 
 function Products() {
   return (
@@ -14,39 +19,39 @@ function Products() {
 
                 <div className='products__card'>
                     <div className='products__card-img-wrapper'>
-                        <img src={DucatiV2} className='products__card-img'></img>
+                        <img src={Nike1} className='products__card-img'></img>
                     </div>
-                    <p className='products__card-description'>The Panigale V1 is powered by a 1103cc Desmosedici Stradale engine, delivering an exhilarating 214 horsepower. </p>
+                    <p className='products__card-description'>The Nike Air Max 270 is designed with comfort and style in mind, featuring the largest Air unit in the heel for a super-soft ride. </p>
                 </div>
 
                 <div className='products__card'>
                     <div className='products__card-img-wrapper'>
-                        <img src={DucatiV3} className='products__card-img'></img>
+                        <img src={Nike2} className='products__card-img'></img>
                     </div>
-                    <p className='products__card-description'>At the heart of the Panigale V2 is a 955cc Superquadro twin-cylinder engine that produces 155 horsepower and 104 Nm of torque.</p>
+                    <p className='products__card-description'>The Nike Air Zoom Pegasus 39 is a versatile running shoe known for its responsive cushioning and lightweight feel.</p>
                 </div>
 
                 <div className='products__card'>
                     <div className='products__card-img-wrapper'>
-                        <img src={DucatiV4} className='products__card-img'></img>
+                        <img src={Nike3} className='products__card-img'></img>
                     </div>
-                    <p className='products__card-description'>The Panigale V3 is powered by a state-of-the-art 1103cc Desmosedici Stradale V4 engine, delivering an astonishing 217 horsepower and 123 Nm of torque.</p>
+                    <p className='products__card-description'>The Nike Air Force 1 is an iconic sneaker that has stood the test of time since its debut in 1982. Known for its classic design and durable construction.</p>
                 </div>
 
                 <div className='products__card'>
                     <div className='products__card-img-wrapper'>
-                        <img src={DucatiV4s} className='products__card-img'></img>
+                        <img src={Nike4} className='products__card-img'></img>
                     </div>
-                    <p className='products__card-description'>At the heart of the Panigale V4S is a powerful 955cc Superquadro twin-cylinder engine, delivering an impressive 155 horsepower and 104 Nm of torque.</p>
+                    <p className='products__card-description'>The Nike Free RN 5.0 is a lightweight running shoe designed to mimic the natural motion of barefoot running.</p>
                 </div>
 
                 
                 <div className='products__goals-card'>
                     <div className='products__goals-card-img-wrapper'>
-                        <img src={DucatiAllTerrain} className='products__goals-card-img'/>
+                        <img src={Nike5} className='products__goals-card-img'/>
                     </div>
                     <div className='products__goals-card-description-wrapper'>
-                        <p className='products__goals-card-description'>The Ducati Multistrada V4 is a versatile adventure touring motorcycle designed to conquer any terrain with ease. Built to deliver exceptional performance both on and off-road, the Multistrada V4 combines Ducati's legendary engineering with advanced technology and comfort features, making it the perfect companion for epic adventures.</p>
+                        <p className='products__goals-card-description'>The Nike React Infinity Run Flyknit is engineered to reduce the risk of injury and keep runners on the road. It features a lightweight Flyknit upper that provides breathability and a secure fit, while the wide.</p>
                     </div>
                     
                 </div>

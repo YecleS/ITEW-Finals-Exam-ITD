@@ -8,7 +8,7 @@ export const Header = () => {
   return (
     <Navbar className='header'>
       <Container className='header__container'>
-        <Navbar.Brand href="#home" className='header__logo'>Ducati</Navbar.Brand>
+        <Navbar.Brand href="#home" className='header__logo'>Nike</Navbar.Brand>
           <Nav>
             <Nav.Link href="#background" className='header__link'>Background</Nav.Link>
             <Nav.Link href="#products" className='header__link'>Products</Nav.Link>

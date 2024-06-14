@@ -4,6 +4,10 @@ import DucatiLogo from '../Assets/ducatiLogo.png';
 import Location from '../Assets/location.jpg';
 import DucatiCEO from '../Assets/ducatiCEO.png';
 import DucatiBuilding from '../Assets/ducatiBuilding.jpg';
+import NikeLogo from '../Assets/nikeLogo.png';
+import NikeLocation from '../Assets/nikeLocation.png';
+import NikeCeo from '../Assets/nikeCeo.jpg';
+import NikeBuilding from '../Assets/nikeBuilding.jpg'
 
 function Background() {
   return (
@@ -14,27 +18,27 @@ function Background() {
                 <div className='background__banner-logo-wrapper'>
                     <div className='background__banner-logo-card'>
                         <div className='background__banner-logo-card-img-wrapper'>
-                            <img src={DucatiLogo} className='background__banner-logo'/>
+                            <img src={NikeLogo} className='background__banner-logo'/>
                         </div>  
-                        <p className='background__banner-logo-description'>The Ducati logo represents the renowned Italian motorcycle manufacturer, known for its high-performance bikes. The emblem typically features a sleek, modern design with a red background, signifying passion and energy, which are core elements of the Ducati brand.</p>
+                        <p className='background__banner-logo-description'>The Nike logo represents the globally recognized sportswear and equipment manufacturer, known for its innovative and high-quality products. The emblem, often referred to as the "Swoosh," features a simple, yet dynamic design.</p>
                     </div>
                 </div>
 
                 <div className='background__card-wrapper'>
                     <div className='background__card'>
                         <div className='background__card-img-wrapper'>
-                            <img src={Location} className='background__card-img'/>
+                            <img src={NikeLocation} className='background__card-img'/>
                         </div>  
-                        <p className='background__card-description'>The company's headquarters are located in Borgo Panigale, Bologna, Italy, a region known for its rich automotive heritage.</p>
+                        <p className='background__card-description'>The company's headquarters are located in Beaverton, Oregon, USA, a region known for its vibrant sports culture and innovative business environment.</p>
                     </div>
                 </div>
 
                 <div className='background__card-wrapper'>
                     <div className='background__card'>
                         <div className='background__card-img-wrapper'>
-                            <img src={DucatiCEO} className='background__card-img'/>
+                            <img src={NikeCeo} className='background__card-img'/>
                         </div>  
-                        <p className='background__card-description'>Claudio Domenicali is the current CEO of Ducati. He has been with the company for many years and has played a significant role in its growth and success.</p>
+                        <p className='background__card-description'>John Donahoe is the current CEO of Nike. He has been with the company since 2020 and has played a significant role in its growth and success.</p>
                     </div>
                 </div>
             </div>
@@ -42,18 +46,13 @@ function Background() {
             <div className='background__right-content'>
                 <div className='background__building-card'>
                     <div className='background__building-img-wrapper'>
-                        <img src={DucatiBuilding} className='background__building-img'></img>
+                        <img src={NikeBuilding} className='background__building-img'></img>
                     </div>
-                    <p className='background__building-description'>The Ducati headquarters building is a blend of modern design and industrial functionality. It features sleek lines, extensive use of glass, and a dynamic layout that reflects the brand's commitment to innovation and performance.</p>
+                    <p className='background__building-description'>The Nike headquarters building is a blend of modern design and innovative functionality. It features sleek lines, extensive use of glass, and a dynamic layout that reflects the brand's commitment to innovation and athletic excellence.</p>
                 </div>
             </div>
         </div>
 
-        <div class="custom-shape-divider-bottom-1718184911">
-    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-        <path d="M649.97 0L599.91 54.12 550.03 0 0 0 0 120 1200 120 1200 0 649.97 0z" class="shape-fill"></path>
-    </svg>
-</div>
     </section>
   )
 }
